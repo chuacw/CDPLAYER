@@ -1,0 +1,20 @@
+
+[OPTIONS]
+ERRORLOG=CDPLAY.ERR
+COMPRESS=NO
+CONTENTS=Contents
+TITLE=CDPlayer Help
+COPYRIGHT=Copyright ¸ 1995 Chua Chee Wee
+CITATION=Copyright ¸ 1995 Chua Chee Wee
+ICON=CDPLAY.ICO
+BMROOT=C:\MYDELP~1
+ROOT=C:\MYDELP~1
+
+[WINDOWS]
+main=,,0,,,0
+
+[FILES]
+CDPLAY.RTF
+
+[CONFIG]
+InsertItem("mnu_HelpOn","","Help on help","HelpOn()",1)
